@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2d2a2a">
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:id="@+id/edit_email"
+        android:inputType="textEmailAddress"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="40dp"
+        android:textColor="@android:color/white"
+        android:textColorHint="@android:color/white"
+        android:hint="email"/>
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:id="@+id/edit_password"
+        android:inputType="textPassword"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="40dp"
+        android:textColor="@android:color/white"
+        android:textColorHint="@android:color/white"
+        android:hint="password"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_forgotpwd"
+        android:text="Forgot Password"
+
+        android:textSize="10sp"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_marginLeft="40dp"/>
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/signinbtn"
+        android:text="Sign In"
+        android:layout_marginLeft="40dp"
+        android:textColor="@android:color/white"
+
+        android:layout_marginTop="30dp"
+        android:background="@color/colorPrimary"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dont have an account?"
+        android:id="@+id/text2"
+        android:layout_marginLeft="40dp"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="10dp"
+    />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/newaccount"
+        android:text="Create one Now"
+        android:layout_marginLeft="40dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:clickable="true"
+        android:layout_marginTop="10dp"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/empty"
+        android:text="----------------------------------or------------------------------"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="40dp"
+        android:textColor="@android:color/white"
+        />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/text"
+        android:text="Please Sign In"
+        android:textSize="16sp"
+        android:gravity="center"
+        android:textColor="@android:color/white"
+
+        android:layout_marginTop="30dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/info"
+        android:layout_marginLeft="40dp"
+        android:textColor="@android:color/white"
+
+        android:textSize="14sp"
+        android:visibility="gone"/>
+
+    <com.facebook.login.widget.LoginButton
+        android:id="@+id/loginfb_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:visibility="gone"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <Button
+        android:id="@+id/fb_button"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="20dp"
+
+        android:background="@drawable/facebookicon"/>
+
+
+    <Button
+        android:id="@+id/sign_in_button"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="140dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/googleg_color"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/sign_out_button"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:text="Sign Out from google"
+        android:visibility="gone"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="10dp"
+        />
+
+
+
+
+
+</LinearLayout>

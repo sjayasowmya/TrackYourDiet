@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "685468473184",
+    "project_id": "firebase-trackyourdiet"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:685468473184:android:8161587d825c3a10",
+        "android_client_info": {
+          "package_name": "prapanca.trackyourdiet"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "685468473184-fka0o6ghdk40dj2efdr1id4aimoa4gju.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "prapanca.trackyourdiet",
+            "certificate_hash": "7C9424FEC50C4FA6C1661BC00D97FD6040C39C91"
+          }
+        },
+        {
+          "client_id": "685468473184-j9ua38h8de480e52s0dqullrl2o4307b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA9Uzf3kR7emL-GwvQGlT52IYXA0CP8S2E"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
